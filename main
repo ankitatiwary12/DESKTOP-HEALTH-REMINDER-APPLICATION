@@ -1,0 +1,13 @@
+import time
+from plyer import notification
+
+if __name__ == "__main__":
+    while True:
+        notification.notify(
+        title = "PLEASE DRINK WATER AND MOVE!!",
+        message = "PLEASE MOVE YOUR BODY - Our bodies are built to move and doing so for approximately three minutes every hour helps us feel our best. Once you start moving, you'll notice: Increased energy. A clearer mind."
+                  "PLEASE DRINK WATER - Why should I drink water? Water is vital to our health. It plays a key role in many of our body's functions, including bringing nutrients to cells, getting rid of wastes, protecting joints and organs, and maintaining body temperature. Water should almost always be your go-to beverage.",
+        app_icon = "C:\Users\Ankita Tiwary\PycharmProjects\HEALT_REMINDERpythonProject\Iconsmind-Outline-Glass-Water.ico",
+        timeout=60
+        )
+    time.sleep(60*60)
